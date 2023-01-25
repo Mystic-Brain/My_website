@@ -1,0 +1,30 @@
+.intro{
+    display: flex;
+    height: 50vh;
+    margin-top: 2rem;
+
+}
+
+.left{
+    display: flex;
+    position:relative;
+    flex:1;
+    flex-direction: column;
+    
+
+}
+
+.i-name{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.i-right{
+    flex:1;
+
+}
