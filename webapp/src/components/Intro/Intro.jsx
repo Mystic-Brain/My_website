@@ -5,6 +5,15 @@ import LinkedIn from '../../img/linkedin_sss.png'
 import Instagram from '../../img/instagram_sss.png'
 import Facebook from '../../img/facebook_sss.png'
 import Twitter from '../../img/twitter_sss.png'
+import Vector1 from '../../img/Vector1.png'
+import Vector2 from '../../img/Vector2.png'
+import boys from '../../img/boy.png'
+import thumbup from '../../img/thumbup.png'
+import Crown from '../../img/crown.png'
+import glassesimoji from '../../img/glassesimoji.png'
+import FlotingDiv from '../FlotingDiv/FlotingDiv'
+
+
 
 const Intro = () => {
     return (
@@ -43,9 +52,16 @@ const Intro = () => {
 
 
         </div>
+        
         <div className="i-right">
-            I am right side
+            <img src={Vector1} alt =''/>
+            <img src={Vector2} alt =''/>
+            {/* <img src={boys} alt =''/> */}
         </div>
+        <div>
+            <FlotingDiv image={Crown}/>
+        </div>
+        
         </div>
     )
 }
