@@ -1,14 +1,14 @@
 import React from 'react'
 import './FlotingDiv.css'
 
-function FlotingDiv({image}) {
+function FlotingDiv({image, txt1,txt2}) {
   return (
     <div className="flotingdiv">
         <img src={image} alt=''/>
         <span>
-            Web
+            {txt1}
             <br/>
-            Developer
+            {txt2}
         </span>
     </div>
   )

@@ -59,7 +59,7 @@ const Intro = () => {
             {/* <img src={boys} alt =''/> */}
         </div>
         <div>
-            <FlotingDiv image={Crown}/>
+            <FlotingDiv image={Crown} txt1='Web' txt2='Developer' />
         </div>
         
         </div>
