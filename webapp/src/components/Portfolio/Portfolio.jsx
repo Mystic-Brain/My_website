@@ -1,14 +1,11 @@
 import React from 'react'
-import './Portfolio.css'
+import "./Portfolio.css";
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css";
 import Sidebar from "../../img/sidebar.png"
 import Ecommerce from "../../img/ecommerce.png"
 import HOC from "../../img/hoc.png"
 import MusicApp from "../../img/musicapp.png"
-
-
-// import {Swiper, Swiperslide} from 'swiper/react';
-// import 'swiper/swiper.css'
-
 
 
 function Portfolio() {
@@ -20,25 +17,20 @@ function Portfolio() {
     <span>Portfolio</span>
 
 
-        {/* slider */}
-    {/* <Swiper>
-        <Swiperslide>
-            <img src={Sidebar} alt="" />
-        </Swiperslide>
-
-        <Swiperslide>
-            <img src={Ecommerce} alt="" />
-        </Swiperslide>
-
-        <Swiperslide>
-            <img src={HOC} alt="" />
-        </Swiperslide>
-
-        <Swiperslide>
-            <img src={MusicApp} alt="" />
-        </Swiperslide>
-
-    </Swiper> */}
+    <Swiper
+      spaceBetween={50}
+      slidesPerView={3}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide>Slide 5</SwiperSlide>
+      <SwiperSlide>Slide 6</SwiperSlide>
+      
+    </Swiper>
 
     </div>
   )

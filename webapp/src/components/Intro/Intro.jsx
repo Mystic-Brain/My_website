@@ -22,7 +22,7 @@ const Intro = () => {
         <div className="i-left">
         <div className="i-name">
             <span>Hey! I Am</span>
-            <span>Sanket Sawale</span>
+            <span className='myname'>Sanket Sawale</span>
             <span>Frontend Developer with high
                 level of experiance in web designing
                 and development, producing the 
