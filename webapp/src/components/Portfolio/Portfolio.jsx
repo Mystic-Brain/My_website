@@ -18,17 +18,24 @@ function Portfolio() {
 
 
     <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+    spaceBetween={30}
+    slidesPerView={3}
+    grabCursor={true}
+    className='portfolio-slider'
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      <SwiperSlide>Slide 5</SwiperSlide>
-      <SwiperSlide>Slide 6</SwiperSlide>
+      <SwiperSlide>
+        <img src ={Sidebar} alt=""/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src ={Ecommerce} alt=""/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src ={MusicApp} alt=""/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src ={HOC} alt=""/>
+      </SwiperSlide>
+    
       
     </Swiper>
 
