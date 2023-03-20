@@ -54,7 +54,7 @@ function Services() {
 
         </div>
 
-        {/* SECOND CARD */}
+        {/* THIRD CARD */}
 
         <div style={{top: '19rem', left:'12rem'}}>
                 <Card
