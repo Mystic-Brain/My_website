@@ -1,4 +1,5 @@
 import React from "react";
+import Toggle from "../Toggle/Toggle";
 
 import "./Navbar.css";
 
@@ -8,7 +9,7 @@ const navbar = () => {
       {/* left */}
       <div className="n-left">
         <div className="n-name">Sank8</div>
-        <div className="">toggle</div>
+        <Toggle/>
        
       </div>
       {/* right */}

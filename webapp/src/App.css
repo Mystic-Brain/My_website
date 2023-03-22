@@ -15,7 +15,8 @@
 }
 
 .App{
-    padding: 0.5rem 3.5rem;
+    
+    padding: 10px 30px 0px;
     overflow: hidden;
     color: var(--black);     
 }
