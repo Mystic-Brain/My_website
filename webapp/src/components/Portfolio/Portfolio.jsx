@@ -7,13 +7,20 @@ import Ecommerce from "../../img/ecommerce.png"
 import HOC from "../../img/hoc.png"
 import MusicApp from "../../img/musicapp.png"
 
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
+
 
 function Portfolio() {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className='portfolio'>
 
         {/* Heading */}
-    <span>Recent Project</span>
+    <span style={{ color: darkMode ? "white" : "" }}>Recent Project</span>
     <span>Portfolio</span>
 
 

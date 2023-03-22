@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div className="experience">
     <div className="achivement">
-        <div className="circle">1+</div>
+        <div className="circle" >1+</div>
         <span>Years</span>
         <span>Experience</span>
     </div>

@@ -6,16 +6,22 @@ import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
 import Resume from './resume.pdf';
 
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
+
 
 
 function Services() {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
   return (
     <div className="services">
         
         
         {/* LEFT SIDE */}
         <div className="awesome">
-            <span>My Awsome</span>
+            <span style={{ color: darkMode ? "white" : "" }}>My Awsome</span>
             <span>Services</span>
             <span>
                 My services is really awsome you should try my services 
