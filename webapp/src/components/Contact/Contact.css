@@ -1,12 +1,10 @@
-
-
-.contact-from{
-    padding: 0 3rem 0 3rem; 
+.contact-form{
+    padding: 0 3rem 0 3rem;
     display: flex;
     height: 80vh;
     margin-top: 4rem;
       /* scroll */
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .c-right{
@@ -30,7 +28,7 @@
     height: 2rem;
     padding: 0.3em;
     outline: none;
-    border: 2px solid var(--blue);
+    border: 2px solid var(--skyblue);
     border-radius: 8px;
     font-size: 16px;   
 }
@@ -43,9 +41,6 @@ textarea{
     top: 1rem;
     left: 8rem;
 }
-
-
-
 
 @media screen and (max-width: 480px) {
     .contact-form{

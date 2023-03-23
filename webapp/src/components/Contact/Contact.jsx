@@ -28,7 +28,7 @@ const [done, setDone] = useState(false)
   };
 
   return (
-    <div className="contact-from">
+    <div className="contact-from" id='contact'>
         <div className="w-left">
             <div className="awesome">
                 <span style={{ color: darkMode ? "white" : "" }}>Get in touch</span>
