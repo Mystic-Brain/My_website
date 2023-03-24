@@ -1,10 +1,10 @@
 import React from 'react';
 import './Works.css';
-import Upwork from '../../img/Upwork.png';
 import Fiverr from '../../img/fiverr.png';
 import Amazon from '../../img/amazon.png';
 import Shopify from '../../img/Shopify.png';
 import Facebook from '../../img/Facebook.png';
+import Nova from '../../img/Nova.png';
 
 import { motion } from "framer-motion";
 
@@ -49,7 +49,7 @@ function Works() {
               transition={{ duration: 3.5, type: "spring" }} 
               className="w-mainCircle">
             <div className="w-secCircle">
-              <img src={Upwork} alt="" />
+              <img src={Nova} alt="" />
             </div>
             <div className="w-secCircle">
               <img src={Fiverr} alt="" />

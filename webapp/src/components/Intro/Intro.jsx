@@ -8,8 +8,8 @@ import Twitter from '../../img/twitter_sss.png'
 import Vector1 from '../../img/Vector2.png'
 import Vector2 from '../../img/ppp.png'
 import boys from '../../img/boy.png'
-import thumbup from '../../img/thumbup.png'
-import Crown from '../../img/crown.png'
+import Software from '../../img/software.png'
+import Coding from '../../img/coding.png'
 
 import glassesimoji from '../../img/glassesimoji.png'
 import FlotingDiv from '../FlotingDiv/FlotingDiv'
@@ -37,9 +37,9 @@ const Intro = () => {
             <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
             <span className='myname'>Sanket Sawale</span>
             <span>Frontend Developer with high
-                level of experiance in web designing
+                level of skills in web designing
                 and development, producing the 
-                Quality work
+                Quality work.
             </span>
         </div>
         
@@ -89,7 +89,7 @@ const Intro = () => {
             style={{top:'-4%', left:'55%'}}
             
             >
-            <FlotingDiv image={Crown} txt1='Web' txt2='Developer' />
+            <FlotingDiv image={Coding} txt1='Web' txt2='Developer' />
         </motion.div>
 
 
@@ -101,7 +101,7 @@ const Intro = () => {
             transition={transition}
             className="floating-div"
             style={{top:'18rem', left:'0rem'}}>
-            <FlotingDiv image={thumbup} txt1='Best Design' txt2='Award'/>
+            <FlotingDiv image={Software} txt1='Software' txt2='Engineer'/>
         </motion.div>
 
 

@@ -31,9 +31,9 @@ function Services() {
             <span style={{ color: darkMode ? "white" : "" }}>My Wonderful</span>
             <span>Services</span>
             <span>
-                My services is really awsome you should try my services 
+                My services is really awsome you should try my services. 
                 <br/>
-                ispum is simply dumy text of printting 
+                Design and development talent to build software that powers and engineers modern business. 
             </span>
             <a href={Resume} download>
             <button className='button s-button'>Download CV</button>
@@ -57,7 +57,7 @@ function Services() {
                 <Card
                 emoji = {HeartEmoji}
                 heading = {'Design'}
-                details = {"Figma, Sketch, Photoshop"}
+                details = {"Figma, Sketch, Photoshop, Paint"}
                 />
             </motion.div>
         {/* SECOND CARD */}
@@ -70,7 +70,7 @@ function Services() {
                 <Card
                 emoji = {Glasses}
                 heading = {'Developer'}
-                details = {"Html, Css, JavaScript, React, photo ahi +, sdfjhk"}
+                details = {"core Java, Html, Css, JavaScript, Reactjs"}
                 />  
 
         </motion.div>
@@ -85,7 +85,7 @@ function Services() {
                 <Card
                 emoji = {Humble}
                 heading = {'UX/UI'}
-                details = {"Coolsank8 I am a developer I am a traveller"}
+                details = {"Design, Usability, Accessibility, Information Architecture"}
                 />  
 
         </motion.div>
