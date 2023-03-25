@@ -1,11 +1,10 @@
 import React from 'react'
 import './Services.css'
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import figma from "../../img/figma.png";
+import ui from "../../img/ui.png";
 import Card from '../Card/Card';
 import Resume from './resume.pdf';
-
+import react from '../../img/react.png'
 import { motion } from "framer-motion";
 import { themeContext } from '../../Context'
 import { useContext } from 'react';
@@ -55,9 +54,9 @@ function Services() {
                 transition={transition}
                 style={{left:'14rem'}}>
                 <Card
-                emoji = {HeartEmoji}
+                emoji = {figma}
                 heading = {'Design'}
-                details = {"Figma, Sketch, Photoshop, Paint"}
+                details = {"Figma, Trello, Sketch, Photoshop, Github"}
                 />
             </motion.div>
         {/* SECOND CARD */}
@@ -68,9 +67,9 @@ function Services() {
                 transition={transition}     
                 style={{top: '12rem', left:'-4rem'}}>
                 <Card
-                emoji = {Glasses}
+                emoji = {react}
                 heading = {'Developer'}
-                details = {"core Java, Html, Css, JavaScript, Reactjs"}
+                details = {"Core Java, Html, Css, JavaScript, Reactjs"}
                 />  
 
         </motion.div>
@@ -83,7 +82,7 @@ function Services() {
                 transition={transition}     
                 style={{top: '19rem', left:'12rem'}}>
                 <Card
-                emoji = {Humble}
+                emoji = {ui}
                 heading = {'UX/UI'}
                 details = {"Design, Usability, Accessibility, Information Architecture"}
                 />  

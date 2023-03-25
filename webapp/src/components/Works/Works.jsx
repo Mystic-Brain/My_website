@@ -3,9 +3,9 @@ import './Works.css';
 import Fiverr from '../../img/fiverr.png';
 import Amazon from '../../img/amazon.png';
 import Shopify from '../../img/Shopify.png';
-import Facebook from '../../img/Facebook.png';
+//import Facebook from '../../img/Facebook.png';
 import Nova from '../../img/Nova.png';
-
+import techbee from '../../img/techbee.png';
 import { motion } from "framer-motion";
 
 import { themeContext } from '../../Context'
@@ -61,7 +61,7 @@ function Works() {
               <img src={Shopify} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Facebook} alt="" />
+              <img src={techbee} alt="" />
             </div>
         </motion.div>
 
