@@ -60,7 +60,6 @@ const Intro = () => {
             <a href='https://www.facebook.com/CoOlsank8'>
             <img src={Facebook} alt =''/>
             </a>
-            
             <a href='https://twitter.com/cooksank8'>
             <img src={Twitter} alt =''/>
             </a>
