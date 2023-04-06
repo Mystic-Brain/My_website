@@ -15,27 +15,27 @@ function Testimonials() {
     const client=[
         {
             img: profile1,
-            review:"Since having our new website built by Thrive, we have seen a 200% increase in the number of online contact forms being filled out and returned to us. Matt and his team worked closely with us to provide a site that met all of the criteria that we were looking for. The end result was a website that is attractive, organized and effective. Thanks to Thrive for all of your hard work and support!"
+            review:"It has been a pleasure working with Sanket. I appreciate your dedication to the projects that you and your team are on. It is nice from the customers stand point to be able to get in touch with you and your team and you guys always made yourselves available. You did a great job for us and I would recommend you to anyone."
                 
         },
         {
             img: profile2,
-            review:"I went to Thrive with a basic “feel” I wanted in a website. They helped flush out the visual layout and content. Thrive’s services are bargain when you weigh the cost versus the product you receive. I will be using them again in future endeavors. Thanks again!"
+            review:"Sanket built my small business a great website that really helps current and potential customers get a good feel for my company. I have been very happy with the customer service and the attention to detail. I highly recommend him for your website. I trust that he will do what is needed to be sure their clients are completely satisfied."
                 
         },
         {
             img: profile3,
-            review:"Since having our new website built by Thrive, we have seen a 200% increase in the number of online contact forms being filled out and returned to us. Matt and his team worked closely with us to provide a site that met all of the criteria that we were looking for. The end result was a website that is attractive, organized and effective. Thanks to Thrive for all of your hard work and support!"
+            review:"My new site created by Sanket just launched. They’ve done a great job of creating exactly what I wanted. Easy to work with and very responsive. They met all of my expectations and had a lot of insight regarding marketing tools I didn’t know existed."
                 
         },
         {
             img: profile4,
-            review:"Since having our new website built by Thrive, we have seen a 200% increase in the number of online contact forms being filled out and returned to us. Matt and his team worked closely with us to provide a site that met all of the criteria that we were looking for. The end result was a website that is attractive, organized and effective. Thanks to Thrive for all of your hard work and support!"
+            review:"The guys did a fantastic job creating a new website for IGL Films. They weere friendly and nothing was too much trouble. A fantastic service, we would highly recommend and we will continue to work with them."
                 
         },
         {
             img: profile5,
-            review:"Since having our new website built by Thrive, we have seen a 200% increase in the number of online contact forms being filled out and returned to us. Matt and his team worked closely with us to provide a site that met all of the criteria that we were looking for. The end result was a website that is attractive, organized and effective. Thanks to Thrive for all of your hard work and support!"
+            review:"As usual very helpful, nothing to much trouble and the end result as I envisaged. Good price point, you pay for what you get and full value for money."
                 
         },
         // {
