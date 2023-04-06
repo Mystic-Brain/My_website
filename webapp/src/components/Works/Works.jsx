@@ -1,15 +1,15 @@
 import React from 'react';
 import './Works.css';
-import Fiverr from '../../img/fiverr.png';
-import Amazon from '../../img/amazon.png';
-import Shopify from '../../img/Shopify.png';
-//import Facebook from '../../img/Facebook.png';
+import Travel from '../../img/travel.png';
+import Airplane from '../../img/airplane.png';
+import Sunrise from '../../img/sunrise.png';
 import Nova from '../../img/Nova.png';
 import techbee from '../../img/techbee.png';
 import { motion } from "framer-motion";
 
 import { themeContext } from '../../Context'
 import { useContext } from 'react';
+import {Link} from 'react-scroll'
 
 
 function Works() {
@@ -18,7 +18,7 @@ function Works() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className='works'>
+    <div className='works' >
 
         <div className="awesome">
             <span style={{ color: darkMode ? "white" : "" }}>Works for All</span>
@@ -26,14 +26,16 @@ function Works() {
             <span>
                 My services is really awsome you should try my services 
                 <br/>
-                ispum is simply dumy text of printting 
+                Worked with Novaturient Traveller 
                 <br/>
-                ispum is simply dumy text of printting test and printing 
+                Worked with Tech Bee 
                 <br/>
-                ispum is simply dumy text of printting 
+                Looking for more client & Brands 
             </span>
             
-            <button className='button s-button'>Hire Me</button>
+            <Link to="contact" smooth={true} spy={true}>
+            <button className="button i-button">Hire me</button>
+            </Link>
             <div className='blur s-blur' style={{backgroud: "#ABF1FF94"}}></div>
 
         </div>
@@ -52,13 +54,13 @@ function Works() {
               <img src={Nova} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Fiverr} alt="" />
+              <img src={Travel} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Amazon} alt="" />
+              <img src={Airplane} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Shopify} alt="" />
+              <img src={Sunrise} alt="" />
             </div>
             <div className="w-secCircle">
               <img src={techbee} alt="" />

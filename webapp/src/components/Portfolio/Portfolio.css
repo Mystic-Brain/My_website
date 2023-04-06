@@ -15,8 +15,8 @@
 }
 
 .portfolio span:nth-of-type(2) {
-  color: var(--orange);
-  font-size: 2.5rem;
+  color: var(--skyblue);
+  font-size: 2.4rem;
   font-weight: bold;
 }
 

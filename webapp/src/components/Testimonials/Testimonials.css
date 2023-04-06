@@ -17,7 +17,7 @@
     font-weight: bold;
 }
 .t-heading span:nth-of-type(2){
-    color: var(--orange);
+    color: #58D68D
 }
 .t-blur1{
     left: 38rem;
