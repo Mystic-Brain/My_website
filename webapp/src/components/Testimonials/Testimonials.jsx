@@ -13,11 +13,11 @@ import 'swiper/css';
 
 function Testimonials() {
     const client=[
-        {
-            img: profile1,
-            review:"It has been a pleasure working with Sanket. I appreciate your dedication to the projects that you and your team are on. It is nice from the customers stand point to be able to get in touch with you and your team and you guys always made yourselves available. You did a great job for us and I would recommend you to anyone."
+        // {
+        //     img: profile1,
+        //     review:"It has been a pleasure working with Sanket. I appreciate your dedication to the projects that you and your team are on. It is nice from the customers stand point to be able to get in touch with you and your team and you guys always made yourselves available. You did a great job for us and I would recommend you to anyone."
                 
-        },
+        // },
         {
             img: profile2,
             review:"Sanket built my small business a great website that really helps current and potential customers get a good feel for my company. I have been very happy with the customer service and the attention to detail. I highly recommend him for your website. I trust that he will do what is needed to be sure their clients are completely satisfied."
