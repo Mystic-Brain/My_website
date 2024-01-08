@@ -3,7 +3,7 @@ import './Services.css'
 import figma from "../../img/figma.png";
 import ui from "../../img/ui.png";
 import Card from '../Card/Card';
-import Resume from './resume.pdf';
+import Resume from './sanket.pdf';
 import react from '../../img/react.png'
 import { motion } from "framer-motion";
 import { themeContext } from '../../Context'
